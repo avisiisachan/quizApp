@@ -1,0 +1,40 @@
+.homeScreen{
+    background-color: #fff0ed;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the elements horizontally */
+    justify-content: center;
+}
+.rocket{
+    height: 80px;
+    padding-top: 120px;
+}
+
+.headingtext{
+    color: rgb(125, 77, 74);
+    padding-bottom: 40px;
+    font-size: 55px;
+}
+
+.starButton {
+    background-color: rgb(27, 90, 27); /* Dark green background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 50px; /* Oval border */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 32px; /* Font size of the text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    width: 100%; /* Make the button take the full width of its container */
+    max-width: 1100px; /* Set a maximum width for the button */
+    display: block;
+    margin-top: 20px;
+    height: 53px;
+    margin-bottom: 50px;
+  }
+  
+  .starButton:hover {
+    background-color: #082708; /* Darker green on hover */
+  }
